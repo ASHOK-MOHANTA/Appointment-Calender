@@ -55,9 +55,9 @@ This app includes a mock login system, appointment scheduling features, and mobi
 ## 🛠️ Tech Stack
 
 - **React** (with functional components and hooks)
-- **CSS** / **Tailwind CSS** / **Material UI** (any styling method works)
+- **CSS** / **Tailwind CSS** 
 - **localStorage** for persistent data (no backend)
-- Optional calendar libraries like `react-calendar` or `react-big-calendar`
+- Optional calendar libraries like `react-calendar`
 
 ---
 
@@ -79,3 +79,10 @@ src/
 ├── index.js / main.jsx
 └── index.css
 
+## Clone the repository:
+git clone https://github.com/your-username/clinic-calendar.git
+cd clinic-calendar
+## Install dependencies:
+npm install
+## Run the app:
+npm run dev
