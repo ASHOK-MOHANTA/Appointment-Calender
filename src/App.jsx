@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Login from './components/Login.tsx';
-import Calendar from './components/Calendar.tsx';
-import { getStoredAuth, setStoredAuth } from './utils/storage';
+import Login from './components/Login.jsx';
+import Calendar from './components/Calendar.jsx';
+import { getStoredAuth, setStoredAuth } from './utils/storage.js';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);

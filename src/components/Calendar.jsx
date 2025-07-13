@@ -8,8 +8,8 @@ import {
   User,
   Clock
 } from 'lucide-react';
-import AppointmentForm from './AppointmentForm.tsx';
-import { useAppointments } from '../hooks/useAppointments';
+import AppointmentForm from './AppointmentForm.jsx';
+import { useAppointments } from '../hooks/useAppointments.js';
 
 const Calendar = ({ onLogout }) => {
   const [currentDate, setCurrentDate] = useState(new Date());
