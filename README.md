@@ -62,7 +62,7 @@ This app includes a mock login system, appointment scheduling features, and mobi
 ---
 
 ## 📁 Folder Structure (Sample)
-``
+```
 src/
 │
 ├── components/
@@ -79,7 +79,7 @@ src/
 ├── App.jsx
 ├── index.js / main.jsx
 └── index.css
-``
+```
 ## Clone the repository:
 git clone https://github.com/your-username/clinic-calendar.git
 cd clinic-calendar
